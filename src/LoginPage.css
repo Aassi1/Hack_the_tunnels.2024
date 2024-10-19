@@ -1,0 +1,31 @@
+.login-container {
+  display: flex;
+  justify-content: flex-start; /* Move the login panel to the left */
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.login-panel {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-left: 20px; /* Add some margin to the left */
+}
+
+.sign-in-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 8px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.sign-in-button:hover {
+  background-color: #0056b3;
+}
