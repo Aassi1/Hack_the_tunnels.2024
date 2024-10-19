@@ -11,7 +11,6 @@ function Login() {
 
   const attemptLogin = async () => {
     try {
-      // Use the email and password state variables
       const message = await login(email, password);
       setMessage(message);
     } catch (error) {
